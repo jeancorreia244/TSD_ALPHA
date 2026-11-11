@@ -61,3 +61,4 @@ Veja `PLANO_EXECUCAO_TSD_ALPHA.md` para guia completo de desenvolvimento.
 ## 📄 Licença
 
 Privado - Projeto TSD
+# TSD_ALPHA
