@@ -1,0 +1,77 @@
+@import './variables.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--tsd-font-family);
+  font-size: var(--tsd-text-base);
+  line-height: 1.6;
+  color: var(--tsd-neutral-700);
+  background-color: var(--tsd-bg-primary);
+  min-height: 100vh;
+}
+
+a {
+  color: var(--tsd-primary);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  font-family: inherit;
+  font-size: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+input, textarea, select {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+:focus-visible {
+  outline: 2px solid var(--tsd-primary);
+  outline-offset: 2px;
+}
+
+::selection {
+  background: var(--tsd-primary-light);
+  color: white;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--tsd-neutral-100);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--tsd-neutral-300);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--tsd-neutral-400);
+}
