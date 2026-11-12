@@ -3,7 +3,7 @@
  * Gerencia chamadas GraphQL, tokens e erros
  */
 
-const GRAPHQL_URL = import.meta.env.VITE_GRAPHQL_URL || 'http://localhost:4001/graphql';
+const GRAPHQL_URL = import.meta.env.VITE_GRAPHQL_URL || '/graphql';
 
 /**
  * Obtém token do localStorage
